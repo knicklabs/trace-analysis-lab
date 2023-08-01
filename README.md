@@ -19,3 +19,13 @@ Use this lab to analyze traces in Common Trace Format (CTF) in Jupyter notebooks
 - Add your traces to `/notes/traces`
 - Use Jupyter lab to add Python3 notebooks to `/notes`.
 - See [syscall_durations.ipynb](http://127.0.0.1:9000/lab/tree/syscall_durations.ipynb) for an example of loading a trace and working with. Also see [Babeltrace 2 Python Bindings Documentation](https://babeltrace.org/docs/v2.0/python/bt2/).
+
+## Notes
+
+If you're using the example `syscall_durations.ipynb`, make sure to put a kernel trace that has syscall events captured into `notes/traces` and update this line:
+
+```python
+msg_it = bt2.TraceCollectionMessageIterator("traces/example")
+```
+
+Replace `example` with the name of your trace directory.
