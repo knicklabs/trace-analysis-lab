@@ -161,5 +161,5 @@ cython_debug/
 .DS_Store
 
 # Traces
-notes/traces/
+notes/traces/*
 !notes/traces/.gitkeep
