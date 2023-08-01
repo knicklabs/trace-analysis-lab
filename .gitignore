@@ -159,3 +159,7 @@ cython_debug/
 
 # Operating system
 .DS_Store
+
+# Traces
+notes/traces/
+!notes/traces/.gitkeep

@@ -10,7 +10,7 @@ Use this lab to analyze traces in Common Trace Format (CTF) in Jupyter notebooks
 - On a Mac, you may want to use [OrbStack](https://orbstack.dev) instead of Docker as it tends to be faster.
 - From the terminal in this project directory, build and run the Jupyter Lab server by running `docker compose -f docker-compose.dev.yml up --build -d`.
 - Visit [http://127.0.0.1/lab](http://127.0.0.1/lab) in your browser.
-- Open the `syscall_durations.ipynb` file and try running it.
+- Open the `syscall_durations.ipynb` file and try running it (see note about copying a trace into the project and editing the path to the trace in the [Notes](#notes) section).
 - When you are done, run `docker compose -f docker-compose.dev.yml down` to stop and remove containers, volumes, and images.
 
 ## How to Use
@@ -29,3 +29,5 @@ msg_it = bt2.TraceCollectionMessageIterator("traces/example")
 ```
 
 Replace `example` with the name of your trace directory.
+
+Sample traces were not included in this repository due to their large size.
