@@ -2,8 +2,6 @@
 
 FROM python:3.11.4-slim-bullseye
 
-# SHELL ["/bin/bash", "-c"]
-
 LABEL maintainer="Nickolas Kenyeres <nk09ja@brocku.ca>" \
       version="1.0.0"
 
